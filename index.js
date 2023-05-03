@@ -9,7 +9,7 @@ app.use(cors())
 app.get('/', (req, res) => {
   res.send('Chafe recipe server  in running')
 })
-app.get('/home', (req, res) => {
+ app.get('/home', (req, res) => {
   
   res.send(home)
 }) 
