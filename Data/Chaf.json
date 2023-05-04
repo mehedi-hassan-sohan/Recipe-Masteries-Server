@@ -1,6 +1,6 @@
 [
   {
-    "id": "1234",
+    "id": 1234,
     "name": "John Smith",
     "picture": "https://i.ibb.co/Vm1rz98/female-chef.jpg",
     "experience": "10 years",
@@ -8,31 +8,32 @@
     "recipeno": "5",
     "likes": "1000",
 
-    "recipe1": {
-      "recipe_name": "american chicken",
-      "recipe_img1": "",
-      "ingredients": "whole chicken lemoncloves of garli sprig of rosemary Salt and pepper",
-      "rating": "4.5",
-      "method": "1. Preheat the oven to 375°F.\n2. Rinse the chicken and pat it dry with paper towels.\n3. Cut the lemon in half and squeeze the juice over the chicken.\n4. Season the chicken inside and out with salt and pepper.\n5. Cut the garlic cloves in half and place them inside the chicken cavity along with the rosemary.\n6. Tie the legs together with kitchen twine.\n7. Place the chicken on a roasting pan and roast in the oven for 1 hour and 15 minutes, or until the internal temperature reaches 165°F.\n8. Let the chicken rest for 10 minutes before carving and serving."
-    },
-    "recipe2": {
-      "recipe_name": "spicy vegetable stir-fry",
-      "recipe_img2": "",
-      "ingredients": "1 red bell pepper, 1 yellow bell pepper, 1 green bell pepper, 1 onion, 1 zucchini, 1 yellow squash, 1 carrot, 1 tbsp vegetable oil, 1 tbsp sesame oil, 2 cloves of garlic, 1 tbsp grated ginger, 1 tbsp soy sauce, 1 tbsp oyster sauce, 1 tsp chili flakes",
-      "rating": "4.8",
-      "method": "1. Cut all vegetables into thin strips.\n2. Heat a wok or large skillet over high heat.\n3. Add vegetable oil and sesame oil to the wok.\n4. Add garlic and ginger, and stir-fry for 30 seconds.\n5. Add vegetables and stir-fry for 2-3 minutes.\n6. Add soy sauce, oyster sauce, and chili flakes, and stir-fry for another 2-3 minutes, until vegetables are crisp-tender.\n7. Serve immediately over rice or noodles."
-    },
-    "recipe3": {
-      "recipe_name": "spinach and feta stuffed chicken breast",
-      "recipe_img3": "",
-      "ingredients": "2 boneless, skinless chicken breasts, 1 cup fresh spinach leaves, 1/2 cup crumbled feta cheese, 2 cloves garlic, minced, 1 tsp dried oregano, 1/4 tsp salt, 1/4 tsp black pepper, 2 tbsp olive oil",
-      "rating": "4.7",
-      "method": "1. Preheat oven to 400°F.\n2. In a bowl, mix together spinach, feta, garlic, oregano, salt, and pepper.\n3. Cut a pocket into the thickest part of each chicken breast.\n4. Stuff each chicken breast with the spinach and feta mixture.\n5. Heat olive oil in an oven-safe skillet over medium-high heat.\n6. Sear the chicken breasts for 2-3 minutes"
-    }
+    "recipe": [
+      {
+        "recipe_name": "american chicken",
+        "recipe_img1": "",
+        "ingredients": "whole chicken lemoncloves of garli sprig of rosemary Salt and pepper",
+        "rating": "4.5",
+        "method": "1. Preheat the oven to 375°F.\n2. Rinse the chicken and pat it dry with paper towels.\n3. Cut the lemon in half and squeeze the juice over the chicken.\n4. Season the chicken inside and out with salt and pepper.\n5. Cut "
+      },
+      {
+        "recipe_name": "spicy vegetable stir-fry",
+        "recipe_img2": "",
+        "ingredients": "1 red bell pepper, 1 yellow bell pepper, 1 green bell pepper, 1 onion, 1 zucchini, 1 yellow squash, 1 carrot",
+        "rating": "4.8",
+        "method": "1. Cut all vegetables into thin strips.\n2. Heat a wok or large skillet over high heat.\n3. Add vegetable oil and sesame oil to the wok.\n4. Add garlic and ginger, and stir-fry for 30 seconds."},
+      {
+        "recipe_name": "spinach and feta stuffed chicken breast",
+        "recipe_img3": "",
+        "ingredients": "2 boneless, skinless chicken breasts, 1 cup fresh spinach leaves, 1/2 cup crumbled feta cheese, 2 cloves garlic, minced, 1 tsp dried oregano, 1/4 tsp salt, 1/4 tsp black pepper, 2 tbsp olive oil",
+        "rating": "4.7",
+        "method": "1. Preheat oven to 400°F."
+      }
+    ]
   },
 
   {
-    "id": "5678",
+    "id": 5678,
     "name": "Emily Johnson",
     "picture": "https://i.ibb.co/MMzS9fZ/chef-PNG140.png",
     "experience": "8 years",
@@ -40,31 +41,32 @@
     "recipeno": "7",
     "likes": "850",
 
-    "recipe1": {
-      "recipe_img1": "",
-      "recipe_name": "grilled salmon with mango salsa",
-      "ingredients": "4 salmon fillets, 1 mango, 1 red bell pepper, 1 jalapeno pepper, 1 small red onion, 1 lime, 1/4 cup cilantro, salt, pepper",
-      "rating": "4.9",
-      "method": "1. Preheat grill to medium-high heat.\n2. Season salmon fillets with salt and pepper.\n3. Grill salmon for 5-7 minutes per side, or until cooked through.\n4. While salmon is cooking, prepare mango salsa.\n5. Dice mango, red bell pepper, and red onion and place in a bowl.\n6. Finely chop jalapeno pepper and cilantro and add to bowl.\n7. Squeeze lime juice over ingredients and stir to combine.\n8. Serve grilled salmon with mango salsa on top."
-    },
-
-    "recipe2": {
-      "recipe_img2": "",
-      "recipe_name": "mac and cheese with bacon",
-      "ingredients": "8 oz elbow macaroni, 4 strips of bacon, 1/4 cup butter, 1/4 cup flour, 2 cups milk, 2 cups shredded cheddar cheese, 1/2 tsp paprika, salt, pepper",
-      "rating": "4.6",
-      "method": "1. Cook macaroni according to package instructions.\n2. Fry bacon until crispy and set aside.\n3. In a saucepan, melt butter over medium heat.\n4. Whisk in flour and cook for 1-2 minutes, stirring constantly.\n5. Gradually whisk in milk and continue cooking, stirring constantly, until mixture thickens.\n6. Add shredded cheddar cheese, paprika, salt, and pepper and stir until cheese is melted.\n7. Crumble bacon and stir into cheese sauce.\n8. Serve mac and cheese with bacon hot."
-    },
-    "recipe3": {
-      "recipe_img3": "",
-      "recipe_name": "grilled steak with chimichurri sauce",
-      "ingredients": "2 ribeye steaks, 1 cup fresh parsley, 1/2 cup fresh cilantro, 3 cloves garlic, 1 shallot, 1/4 cup red wine vinegar, 1/2 cup olive oil, salt, pepper",
-      "rating": "4.8",
-      "method": "1. Preheat grill to medium-high heat.\n2. Season steaks with salt and pepper.\n3. Grill steaks for 5-7 minutes per side, or until desired doneness.\n4. While steaks are cooking, prepare chimichurri sauce.\n5. Finely chop parsley, cilantro, garlic, and shallot and place in a bowl.\n6. Add red wine vinegar and olive oil and whisk to combine.\n7. Season with salt and pepper to taste.\n8. Serve grilled steaks with chimichurri sauce on top."
-    }
+    "recipe": [
+      {
+        "recipe_img1": "",
+        "recipe_name": "grilled salmon with mango salsa",
+        "ingredients": "4 salmon fillets, 1 mango, 1 red bell pepper, 1 jalapeno pepper, 1 small red onion, 1 lime, 1/4 cup cilantro, salt, pepper",
+        "rating": "4.9",
+        "method": "1. Preheat grill to medium-high heat.\n2. Season salmon fillets with salt and pepper.\n3. Grill salmon for 5-7 minutes per side, or until cooked through.\n4. While salmon is cooking, prepare mango salsa.\n5. Dice mango, red bell pepper,."
+      },
+      {
+        "recipe_img2": "",
+        "recipe_name": "mac and cheese with bacon",
+        "ingredients": "8 oz elbow macaroni, 4 strips of bacon, 1/4 cup butter, 1/4 cup flour, 2 cups milk, 2 cups shredded cheddar cheese, 1/2 tsp paprika, salt, pepper",
+        "rating": "4.6",
+        "method": "1. Cook macaroni according to package instructions.\n2. Fry bacon until crispy and set aside.\n3. In a saucepan, melt butter over medium heat.\n4. Whisk in flour and cook for 1-2 minutes, stirring constantly.\n5. Gradually whisk in milk "
+      },
+      {
+        "recipe_img3": "",
+        "recipe_name": "grilled steak with chimichurri sauce",
+        "ingredients": "2 ribeye steaks, 1 cup fresh parsley, 1/2 cup fresh cilantro, 3 cloves garlic, 1 shallot, 1/4 cup red wine vinegar, 1/2 cup olive oil, salt, pepper",
+        "rating": "4.8",
+        "method": "1. Preheat grill to medium-high heat.\n2. Season steaks with salt and pepper.\n3. Grill steaks for 5-7 minutes per side, or until desired doneness.\n4. While steaks are cooking, prepare chimichurri sauce.\n5. "
+      }
+    ]
   },
   {
-    "id": "1235",
+    "id": 1235,
     "name": "John Smith",
     "picture": "https://i.ibb.co/nksX2WG/depositphotos-24496199-stock-photo-a-male-chef.webp",
     "experience": "10 years",
@@ -72,31 +74,33 @@
     "recipeno": "5",
     "likes": "1200",
 
-    "recipe1": {
-      "recipe_img1": "",
-      "recipe_name": "chocolate lava cake",
-      "ingredients": "4 oz semisweet chocolate, 1/2 cup unsalted butter, 1/2 cup granulated sugar, 2 large eggs, 2 large egg yolks, 1/4 tsp salt, 1/4 cup all-purpose flour",
-      "rating": "4.9",
-      "method": "1. Preheat oven to 425°F.\n2. Grease four 6-ounce ramekins with butter and dust with flour.\n3. In a double boiler, melt the chocolate and butter together, stirring until smooth.\n4. In a separate bowl, whisk together the sugar, eggs, egg yolks, and salt until light and thick.\n5. Add the melted chocolate mixture to the egg mixture and whisk until well combined.\n6. Sift the flour into the chocolate mixture and whisk until just combined.\n7. Divide the batter evenly among the prepared ramekins.\n8. Bake for 12-14 minutes or until the edges are firm and the centers are soft.\n9. Let the cakes cool in the ramekins for 1-2 minutes.\n10. Run a knife around the edges of the ramekins and invert the cakes onto serving plates. Serve warm with a dusting of powdered sugar and fresh berries."
-    },
+    "recipe": [
+      {
+        "recipe_img": "https://i.ibb.co/Bz2CMzs/hot3-var4.jpg",
+        "recipe_name": "chocolate lava cake",
+        "ingredients": "4 oz semisweet chocolate, 1/2 cup unsalted butter, 1/2 cup granulated sugar, 2 large eggs, 2 large egg yolks, ",
+        "rating": "4.9",
+        "method": "1. Preheat oven to 425°F.\n2. Grease four 6-ounce ramekins with butter and dust with flour.\n3. In a double boiler, melt the chocolate and butter together, stirring until smooth.\n4. In a separate bowl, whisk together the sugar, eggs, egg yolks, and salt until light and thick.\n5. Add the melted chocolate mixture to the egg mixture and whisk until well combined.\n6."
+      },
 
-    "recipe2": {
-      "recipe_img2": "",
-      "recipe_name": "strawberry shortcake",
-      "ingredients": "1 cup all-purpose flour, 1/4 cup granulated sugar, 1 tsp baking powder, 1/4 tsp baking soda, 1/4 tsp salt, 1/2 cup unsalted butter, 1/2 cup buttermilk, 1 large egg, 1 tsp vanilla extract, 1 lb fresh strawberries, 1/4 cup granulated sugar, whipped cream",
-      "rating": "4.7",
-      "method": "1. Preheat oven to 375°F.\n2. In a large bowl, whisk together flour, sugar, baking powder, baking soda, and salt.\n3. Using a pastry cutter or two knives, cut in the butter until the mixture resembles coarse crumbs.\n4. In a separate bowl, whisk together buttermilk, egg, and vanilla extract.\n5. Add the wet ingredients to the dry ingredients and stir until just combined.\n6. Pour the batter into an 8-inch square baking dish and smooth the top with a spatula.\n7. Bake for 20-25 minutes or until a toothpick inserted into the center of the cake comes out clean.\n8. Let the cake cool in the pan for 5-10 minutes before transferring to a wire rack to cool completely.\n9. While the cake is cooling, slice the strawberries and toss them with 1/4 cup of granulated sugar.\n10. To assemble the shortcake, cut the cake into squares and top with strawberries and whipped cream."
-    },
-    "recipe3": {
-      "recipe_img3": "",
-      "recipe_name": "lemon meringue pie",
-      "ingredients": "1 pie crust, 4 large egg yolks, 1 can sweetened condensed milk, 1/2 cup fresh lemon juice, 1 tbsp grated lemon zest, 4 large egg whites, 1/4 tsp cream of tartar, 1/2 cup granulated sugar",
-      "rating": "4.7",
-      "method": "1. Preheat oven to 350°F.\n2. Bake the pie crust according to package instructions and let cool.\n3. In a medium bowl, whisk together egg yolks, sweetened condensed milk, lemon juice, and lemon zest until smooth.\n4. Pour mixture into cooled pie crust.\n5. In a large bowl, beat egg whites and cream of tartar with an electric mixer until soft peaks form.\n6. Gradually add granulated sugar while continuing to beat until stiff peaks form.\n7. Spread meringue over the lemon filling, making sure to seal the edges of the pie crust.\n8. Bake for 10-15 minutes or until the meringue is golden brown.\n9. Let pie cool completely before serving."
-    }
+      {
+        "recipe_img": "https://i.ibb.co/p0R6xw9/hot3-var1.jpg",
+        "recipe_name": "strawberry shortcake",
+        "ingredients": "1 cup all-purpose flour, 1/4 cup granulated sugar, 1 tsp baking powder, 1/4 tsp baking soda, 1/4 tsp salt, 1/2 cup unsalted butter, 1/2 cup buttermilk, 1 large egg, 1 tsp vanilla extract, 1 lb fresh strawberries, 1/4 cup granulated sugar, whipped cream",
+        "rating": "4.7",
+        "method": "1. Preheat oven to 375°F.\n2. In a large bowl, whisk together flour, sugar, baking powder, baking soda, and salt.\n3. Using a pastry cutter or two knives, cut in the butter until the mixture resembles coarse crumbs.\n4. In a separate bowl, whisk together buttermilk, egg, and vanilla extract.\n5. Add the wet ingredients to the dry ingredients and stir until just combined.\n6. Pour the batter into an 8-inch square baking dish and smooth the top with a spatula.\n7."
+      },
+      {
+        "recipe_img": "https://i.ibb.co/F8TGByf/new-var2.jpg",
+        "recipe_name": "lemon meringue pie",
+        "ingredients": "1 pie crust, 4 large egg yolks, 1 can sweetened condensed milk, 1/2 cup fresh lemon juice, 1 tbsp grated lemon zest, 4 large egg whites, 1/4 tsp cream of tartar, 1/2 cup granulated sugar",
+        "rating": "4.7",
+        "method": "1. Preheat oven to 350°F.\n2. Bake the pie crust according to package instructions and let cool.\n3. In a medium bowl, whisk together egg yolks, sweetened condensed milk, lemon juice, and lemon zest until smooth.\n4. Pour mixture into cooled pie crust.\n5. In a large bowl, beat egg whites and cream of tartar with an electric mixer until soft peaks form.\n6."
+      }
+    ]
   },
   {
-    "id": "5672",
+    "id": 5672,
     "name": "Jane Doe",
     "picture": "https://media.istockphoto.com/id/183762599/photo/young-chef-looking-at-the-camera.jpg?s=612x612&w=0&k=20&c=w5KoUhYE4juNTVAjLn6CV0uS7nElI6BKRmUTiKMYFmQ=",
     "experience": "15 years",
@@ -104,30 +108,32 @@
     "recipeno": "3",
     "likes": "2500",
 
-    "recipe1": {
-      "recipe_img1": "",
-      "recipe_name": "beef bourguignon",
-      "ingredients": "2 lbs beef chuck, 4 slices bacon, 1 onion, 2 cloves garlic, 2 cups red wine, 2 cups beef broth, 2 tbsp tomato paste, 1 tsp thyme, 2 bay leaves, 1 lb carrots, 1 lb mushrooms, 1/4 cup all-purpose flour, salt and pepper",
-      "rating": "4.8",
-      "method": "1. Preheat oven to 350°F.\n2. Cut beef chuck into 2-inch pieces and season with salt and pepper.\n3. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pot and set aside.\n4. Add beef to the pot and cook until browned on all sides. Remove from pot and set aside.\n5. Add chopped onion and garlic to the pot and cook until translucent.\n6. Add red wine, beef broth, tomato paste, thyme, and bay leaves to the pot and stir to combine.\n7. Return beef and bacon to the pot and bring to a simmer.\n8. Cover the pot and transfer to the oven. Cook for 2-3 hours, or until beef is tender.\n9. In a separate skillet, cook carrots and mushrooms until tender.\n10. Remove the pot from the oven and stir in the cooked vegetables.\n11. Whisk together 1/4 cup of flour with 1/4 cup of water until smooth. Stir the mixture into the pot and cook for an additional 10-15 minutes, or until the sauce has thickened."
-    },
-    "recipe2": {
-      "recipe_img2": "",
-      "recipe_name": "spicy shrimp stir-fry",
-      "ingredients": "1 lb large shrimp, 1 red bell pepper, 1 yellow bell pepper, 1 orange bell pepper, 1 onion, 2 cloves garlic, 2 tbsp soy sauce, 2 tbsp hoisin sauce, 1 tsp sriracha sauce, 2 tbsp vegetable oil, salt and pepper",
-      "rating": "4.6",
-      "method": "1. Heat vegetable oil in a large skillet over high heat.\n2. Add shrimp and cook until pink, about 2-3 minutes per side. Remove from skillet and set aside.\n3. Add chopped bell peppers and onion to the skillet and cook until tender.\n4. Add minced garlic and cook for an additional minute.\n5. Add cooked shrimp back to the skillet.\n6. In a small bowl, whisk together soy sauce, hoisin sauce, and sriracha sauce.\n7. Pour the sauce over the shrimp and vegetables and toss to coat.\n8. Cook for an additional 2-3 minutes, or until the sauce has thickened.\n9. Serve hot over rice."
-    },
-    "recipe3": {
-      "recipe_img3": "",
-      "recipe_name": "Honey Mustard Salmon",
-      "ingredients": "4 salmon fillets, 1/4 cup honey, 1/4 cup dijon mustard, 2 tbsp olive oil, 1 tbsp lemon juice, 2 cloves garlic, minced, 1 tsp salt, 1/2 tsp black pepper",
-      "rating": "4.8",
-      "method": "1. Preheat the oven to 400°F (200°C).\n2. In a small bowl, whisk together honey, dijon mustard, olive oil, lemon juice, minced garlic, salt, and black pepper.\n3. Place salmon fillets on a baking sheet lined with parchment paper.\n4. Brush the honey mustard mixture over the salmon fillets.\n5. Bake in the preheated oven for 12-15 minutes, or until the salmon is cooked through and flakes easily with a fork.\n6. Serve hot with your favorite side dishes."
-    }
+    "recipe": [
+      {
+        "recipe_img1": "",
+        "recipe_name": "beef bourguignon",
+        "ingredients": "2 lbs beef chuck, 4 slices bacon, 1 onion, 2 cloves garlic, 2 cups red wine, 2 cups beef broth, 2 tbsp tomato paste, 1 tsp thyme, 2 bay leaves, 1 lb carrots, 1 lb mushrooms, 1/4 cup all-purpose flour, salt and pepper",
+        "rating": "4.8",
+        "method": "1. Preheat oven to 350°F.\n2. Cut beef chuck into 2-inch pieces and season with salt and pepper.\n3. In a large Dutch oven, cook bacon over medium heat until crispy. Remove from pot and set aside.\n4. Add beef to the pot and cook until browned on all sides. Remove from pot and set aside.\n5. Add chopped onion and garlic to the pot and cook until translucent.\n6. Add red wine, beef broth, tomato paste, thyme, and bay leaves to the pot and stir to combine.\n7."
+      },
+      {
+        "recipe_img2": "",
+        "recipe_name": "spicy shrimp stir-fry",
+        "ingredients": "1 lb large shrimp, 1 red bell pepper, 1 yellow bell pepper, 1 orange bell pepper, 1 onion, 2 cloves garlic, 2 tbsp soy sauce, 2 tbsp hoisin sauce, 1 tsp sriracha sauce, 2 tbsp vegetable oil, salt and pepper",
+        "rating": "4.6",
+        "method": "1. Heat vegetable oil in a large skillet over high heat.\n2. Add shrimp and cook until pink, about 2-3 minutes per side. Remove from skillet and set aside.\n3. Add chopped bell peppers and onion to the skillet and cook until tender.\n4. Add minced garlic and cook for an additional minute.\n5. Add cooked shrimp back to the skillet.\n6. In a small bowl, whisk together soy sauce, hoisin sauce, and sriracha sauce.\n7. Pour the sauce over the shrimp and vegetables and toss to coat.\n8. Cook for an additional 2-3 minutes, or until the sauce has thickened.\n9. Serve hot over rice."
+      },
+      {
+        "recipe_img3": "",
+        "recipe_name": "Honey Mustard Salmon",
+        "ingredients": "4 salmon fillets, 1/4 cup honey, 1/4 cup dijon mustard, 2 tbsp olive oil, 1 tbsp lemon juice, 2 cloves garlic, minced, 1 tsp salt, 1/2 tsp black pepper",
+        "rating": "4.8",
+        "method": "1. Preheat the oven to 400°F (200°C).\n2. In a small bowl, whisk together honey, dijon mustard, olive oil, lemon juice, minced garlic, salt, and black pepper.\n3. Place salmon fillets on a baking sheet lined with parchment paper.\n4. Brush the honey mustard mixture over the salmon fillets.\n5. Bake in the preheated oven for 12-15 minutes, or until the salmon is cooked through and flakes easily with a fork.\n6. Serve hot with your favorite side dishes."
+      }
+    ]
   },
   {
-    "id": "5858",
+    "id": 5858,
     "name": "John Smith",
     "picture": "https://i.ibb.co/wJ9Bx11/depositphotos-167557822-stock-photo-young-female-chef.webp",
     "experience": "10 years",
@@ -135,33 +141,35 @@
     "recipeno": "2",
     "likes": "1500",
 
-    "recipe1": {
-      "recipe_img1": "",
+    "recipe": [
+      {
+        "recipe_img1": "",
 
-      "recipe_name": "chicken parmesan",
-      "ingredients": "4 boneless, skinless chicken breasts, 1/2 cup all-purpose flour, 2 eggs, beaten, 1 cup breadcrumbs, 1/2 cup grated Parmesan cheese, 1 tsp Italian seasoning, salt and pepper, 2 cups marinara sauce, 1 cup shredded mozzarella cheese",
-      "rating": "4.5",
-      "method": "1. Preheat oven to 375°F.\n2. Place flour, beaten eggs, and breadcrumbs in three separate bowls.\n3. Mix together the grated Parmesan cheese and Italian seasoning in a fourth bowl.\n4. Season chicken breasts with salt and pepper.\n5. Dredge each chicken breast in the flour, then dip in the beaten eggs, and finally coat in the breadcrumb mixture.\n6. Heat olive oil in a large skillet over medium heat. Add chicken breasts and cook until golden brown on both sides.\n7. Transfer the chicken breasts to a baking dish.\n8. Pour marinara sauce over the chicken breasts.\n9. Sprinkle shredded mozzarella cheese over the top.\n10. Bake in the preheated oven for 25-30 minutes, or until the chicken is cooked through and the cheese is melted and bubbly.\n11. Serve hot with your favorite side dishes."
-    },
-    "recipe2": {
-      "recipe_img2": "",
+        "recipe_name": "chicken parmesan",
+        "ingredients": "4 boneless, skinless chicken breasts, 1/2 cup all-purpose flour, 2 eggs, beaten, 1 cup breadcrumbs, 1/2 cup grated Parmesan cheese, 1 tsp Italian seasoning, salt and pepper, 2 cups marinara sauce, 1 cup shredded mozzarella cheese",
+        "rating": "4.5",
+        "method": "1. Preheat oven to 375°F.\n2. Place flour, beaten eggs, and breadcrumbs in three separate bowls.\n3. Mix together the grated Parmesan cheese and Italian seasoning in a fourth bowl.\n4. Season chicken breasts with salt and pepper.\n5. Dredge each chicken breast in the flour, then dip in the beaten eggs, and finally coat in the breadcrumb mixture.\n6. Heat olive oil in a large "
+      },
+      {
+        "recipe_img2": "",
 
-      "recipe_name": "vegetarian chili",
-      "ingredients": "1 onion, chopped, 1 red bell pepper, chopped, 1 yellow bell pepper, chopped, 3 cloves garlic, minced, 2 cans kidney beans, drained and rinsed, 1 can black beans, drained and rinsed, 1 can corn, drained, 1 can diced tomatoes, 1 tbsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, salt and pepper, 2 cups vegetable broth",
-      "rating": "4.2",
-      "method": "1. Heat olive oil in a large pot over medium heat.\n2. Add chopped onion and bell peppers and cook until tender.\n3. Add minced garlic and cook for an additional minute.\n4. Add kidney beans, black beans, corn, diced tomatoes, chili powder, cumin, smoked paprika, salt, and pepper to the pot and stir to combine.\n5. Pour in vegetable broth and bring to a simmer.\n6. Reduce heat to low and let the chili simmer for 20-30 minutes, stirring occasionally.\n7. Serve hot with your favorite toppings, such as shredded cheese, sour cream, or diced avocado."
-    },
-    "recipe3": {
-      "recipe_img3": "",
+        "recipe_name": "vegetarian chili",
+        "ingredients": "1 onion, chopped, 1 red bell pepper, chopped, 1 yellow bell pepper, chopped, 3 cloves garlic, minced, 2 cans kidney beans, drained and rinsed, 1 can black beans, drained and rinsed, 1 can corn, drained, 1 can diced tomatoes, 1 tbsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, salt and pepper, 2 cups vegetable broth",
+        "rating": "4.2",
+        "method": "1. Heat olive oil in a large pot over medium heat.\n2. Add chopped onion and bell peppers and cook until tender.\n3. Add minced garlic and cook for an additional minute.\n4. Add kidney beans, black beans, corn, diced tomatoes, chili powder, cumin, smoked paprika, salt, and pepper to the pot and stir to combine.\n5. Pour in vegetable broth and bring to a simmer.\n6. Reduce heat to low and let the chili simmer for 20-30 minutes, stirring occasionally.\n7. Serve hot with your favorite toppings, such as shredded cheese, sour cream, or diced avocado."
+      },
+      {
+        "recipe_img3": "",
 
-      "recipe_name": "vegetarian chili",
-      "ingredients": "1 onion, chopped, 1 red bell pepper, chopped, 1 yellow bell pepper, chopped, 3 cloves garlic, minced, 2 cans kidney beans, drained and rinsed, 1 can black beans, drained and rinsed, 1 can corn, drained, 1 can diced tomatoes, 1 tbsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, salt and pepper, 2 cups vegetable broth",
-      "rating": "4.2",
-      "method": "1. Heat olive oil in a large pot over medium heat.\n2. Add chopped onion and bell peppers and cook until tender.\n3. Add minced garlic and cook for an additional minute.\n4. Add kidney beans, black beans, corn, diced tomatoes, chili powder, cumin, smoked paprika, salt, and pepper to the pot and stir to combine.\n5. Pour in vegetable broth and bring to a simmer.\n6. Reduce heat to low and let the chili simmer for 20-30 minutes, stirring occasionally.\n7. Serve hot with your favorite toppings, such as shredded cheese, sour cream, or diced avocado."
-    }
+        "recipe_name": "vegetarian chili",
+        "ingredients": "1 onion, chopped, 1 red bell pepper, chopped, 1 yellow bell pepper, chopped, 3 cloves garlic, minced, 2 cans kidney beans, drained and rinsed, 1 can black beans, drained and rinsed, 1 can corn, drained, 1 can diced tomatoes, 1 tbsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, salt and pepper, 2 cups vegetable broth",
+        "rating": "4.2",
+        "method": "1. Heat olive oil in a large pot over medium heat.\n2. Add chopped onion and bell peppers and cook until tender.\n3. Add minced garlic and cook for an additional minute.\n4. Add kidney beans, black beans, corn, diced tomatoes, chili powder, cumin, smoked paprika, salt, and pepper to the pot and stir to combine.\n5. Pour in vegetable broth and bring to a simmer.\n6. "
+      }
+    ]
   },
   {
-    "id": "9012",
+    "id": 9012,
     "name": "Maria Rodriguez",
     "picture": "https://i.ibb.co/4gsRm6k/depositphotos-5147838-stock-photo-attractive-smiling-cook.webp",
     "experience": "20 years",
@@ -169,26 +177,92 @@
     "recipeno": "3",
     "likes": "3500",
 
-    "recipe1": {
-      "recipe_name": "Lobster Thermidor",
-      "recipe_img1": "",
-      "ingredients": "2 lobsters, 2 cups milk, 1/4 cup butter, 1/4 cup flour, 1/4 cup brandy, 1/4 cup grated Parmesan cheese, 1/4 cup bread crumbs, 1/4 cup chopped shallots, 1/4 cup chopped mushrooms, 1 tsp Dijon mustard, 1 tsp paprika, salt and pepper",
-      "rating": "4.9",
-      "method": "1. Preheat oven to 375°F.\n2. Cook lobsters in boiling water for 8-10 minutes until they turn red. Remove meat from the shell and cut into bite-sized pieces. Keep the shells for presentation.\n3. In a saucepan, heat milk until it just starts to boil.\n4. In another saucepan, melt butter over medium heat. Add flour and cook, stirring constantly, for 1-2 minutes.\n5. Gradually whisk in hot milk and continue to whisk until the mixture thickens.\n6. Add brandy, Parmesan cheese, shallots, mushrooms, mustard, paprika, salt, and pepper. Cook, stirring constantly, until the mixture is smooth and thick.\n7. Add lobster meat to the mixture and stir to coat.\n8. Spoon the mixture into the lobster shells.\n9. Mix bread crumbs with melted butter and sprinkle over the top of the lobster mixture.\n10. Bake for 10-15 minutes, or until golden brown."
-    },
-    "recipe2": {
-      "recipe_name": "Grilled Ribeye Steak",
-      "recipe_img2": "",
-      "ingredients": "2 1-pound ribeye steaks, 2 tbsp olive oil, 2 cloves garlic, minced, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp dried rosemary, 1/2 tsp dried thyme",
-      "rating": "4.7",
-      "method": "1. Preheat grill to high heat.\n2. Rub steaks with olive oil and minced garlic.\n3. Season steaks with salt, black pepper, rosemary, and thyme.\n4. Place steaks on the grill and cook for 4-5 minutes per side for medium-rare, or longer for desired doneness.\n5. Remove steaks from the grill and let them rest for 5 minutes before slicing and serving."
-    },
-    "recipe3": {
-      "recipe_name": "Butternut Squash Risotto",
-      "recipe_img3": "",
-      "ingredients": "1 butternut squash, 1 onion, 2 cloves garlic, 1 cup Arborio rice, 4 cups chicken broth, 1/2 cup white wine, 1/2 cup grated Parmesan cheese, 1/4 cup butter, 2 tbsp olive oil, 1 tbsp chopped fresh sage, salt and pepper",
-      "rating": "4.6",
-      "method": "1. Preheat oven to 375°F.\n2. Cut butternut squash in half and remove seeds. Roast in the oven for 45 minutes, or until tender. Scoop out the flesh and set aside.\n3. In a saucepan, heat chicken broth and keep warm.\n4. In a large saucepan, heat olive oil over medium heat. Add chopped onion and garlic and cook until softened.\n5. Add Arborio rice to the saucepan and"
-    }
+    "recipe": [
+      {
+        "recipe_name": "Lobster Thermidor",
+        "recipe_img1": "",
+        "ingredients": "2 lobsters, 2 cups milk, 1/4 cup butter, 1/4 cup flour, 1/4 cup brandy, 1/4 cup grated Parmesan cheese, 1/4 cup bread crumbs, 1/4 cup chopped shallots, 1/4 cup chopped mushrooms, 1 tsp Dijon mustard, 1 tsp paprika, salt and pepper",
+        "rating": "4.9",
+        "method": "1. Preheat oven to 375°F.\n2. Cook lobsters in boiling water for 8-10 minutes until they turn red. Remove meat from the shell and cut into bite-sized pieces. Keep the shells for presentation.\n3. In a saucepan, heat milk until it just starts to boil.\n4. In another saucepan, melt butter over medium heat. Add flour and cook, stirring constantly, for 1-2 minutes.\n5. Gradually whisk in hot milk and continue to whisk until the mixture thickens.\n6. Add brandy, Parmesan cheese, shallots, "
+      },
+      {
+        "recipe_name": "Grilled Ribeye Steak",
+        "recipe_img2": "",
+        "ingredients": "2 1-pound ribeye steaks, 2 tbsp olive oil, 2 cloves garlic, minced, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp dried rosemary, 1/2 tsp dried thyme",
+        "rating": "4.7",
+        "method": "1. Preheat grill to high heat.\n2. Rub steaks with olive oil and minced garlic.\n3. Season steaks with salt, black pepper, rosemary, and thyme.\n4. Place steaks on the grill and cook for 4-5 minutes per side for medium-rare, or longer for desired doneness.\n5. Remove steaks from the grill and let them rest for 5 minutes before slicing and serving."
+      },
+      {
+        "recipe_name": "Butternut Squash Risotto",
+        "recipe_img3": "",
+        "ingredients": "1 butternut squash, 1 onion, 2 cloves garlic, 1 cup Arborio rice, 4 cups chicken broth, 1/2 cup white wine, 1/2 cup grated Parmesan cheese, 1/4 cup butter, 2 tbsp olive oil, 1 tbsp chopped fresh sage, salt and pepper",
+        "rating": "4.6",
+        "method": "1. Preheat oven to 375°F.\n2. Cut butternut squash in half and remove seeds. Roast in the oven for 45 minutes, or until tender. Scoop out the flesh and set aside.\n3. In a saucepan, heat chicken broth and keep warm.\n4. In a large saucepan, heat olive oil over medium heat. Add chopped onion and garlic and cook until softened.\n5. Add Arborio rice to the saucepan and"
+      }
+    ]
+  },
+  {
+    "id": 6789,
+    "name": "John Smith",
+    "picture": "https://i.ibb.co/Y3xFGyr/chef-PNG189.png",
+    "experience": "10 years",
+    "bio": "John Smith is a skilled mixologist with experience in crafting unique and creative cocktails. He has worked in some of the best bars and clubs in the world and is known for his ability to create drinks that are both delicious and visually stunning.",
+    "recipeno": "3",
+    "likes": "2500",
+    "recipe": [
+      {
+        "recipe_name": "Old Fashioned",
+        "recipe_img1": "",
+        "ingredients": "2 oz bourbon, 1 tsp simple syrup, 2 dashes Angostura bitters, 1 orange slice, 1 maraschino cherry, ice",
+        "rating": "4.8",
+        "method": "1. Place the sugar cube, bitters, and a splash of water in a rocks glass.\n2. Muddle until the sugar is dissolved.\n3. Add ice to the glass and pour in the bourbon.\n4. Stir well to combine.\n5. Garnish with an orange slice and a maraschino cherry."
+      },
+      {
+        "recipe_name": "Mojito",
+        "recipe_img2": "",
+        "ingredients": "1 1/2 oz white rum, 1 oz lime juice, 1 oz simple syrup, 6-8 fresh mint leaves, soda water, ice",
+        "rating": "4.7",
+        "method": "1. In a highball glass, muddle the mint leaves with the lime juice and simple syrup.\n2. Add ice to the glass.\n3. Pour in the rum and stir well to combine.\n4. Top off the glass with soda water.\n5. Garnish with a sprig of fresh mint and a slice of lime."
+      },
+      {
+        "recipe_name": "Classic Chocolate Cake",
+        "recipe_img1": "",
+        "ingredients": "2 cups all-purpose flour, 2 cups granulated sugar, 3/4 cup unsweetened cocoa powder, 2 tsp baking powder, 1 1/2 tsp baking soda, 1 tsp salt, 1 cup milk, 1/2 cup vegetable oil, 2 large eggs, 2 tsp vanilla extract, 1 cup boiling water, chocolate frosting",
+        "rating": "4.8",
+        "method": "1. Preheat oven to 350°F.\n2. Grease and flour two 9-inch round cake pans.\n3. In a large mixing bowl, combine flour, sugar, cocoa, baking powder, baking soda, and salt.\n4. Add milk, vegetable oil, eggs, and vanilla to the dry ingredients and mix on medium speed until well combined.\n5. Reduce speed and carefully add boiling water to the batter. frosting."
+      }
+    ]
+  },
+  {
+    "id": 5678,
+    "name": "Anna Nguyen",
+    "picture": "https://i.ibb.co/6gN59Gx/198804764-mature-female-chef-with-knives-on-white-background.webp",
+    "experience": "8 years",
+    "bio": "Anna Nguyen is a Vietnamese-American chef who grew up in a family of restaurateurs. Her love for cooking and blending the flavors of her heritage with modern techniques has made her a rising star in the culinary world. Anna's dishes are known for their bold flavors and colorful presentation, and she's always experimenting with new ingredients and recipes to push the boundaries of Vietnamese cuisine.",
+    "recipeno": "4",
+    "likes": "800",
+    "recipe": [
+      {
+        "recipe_name": "Pho Bo",
+        "recipe_img1": "",
+        "ingredients": "2 lbs beef bones, 1 lb beef brisket, 1 onion, 3-inch piece of ginger, 5 star anise, 1 cinnamon stick, 1 tbsp coriander seeds, 1 tbsp fennel seeds, 2 cloves, 1 tbsp sugar, 2 tbsp fish sauce, 2 tbsp soy sauce, rice noodles, bean sprouts, cilantro, basil, lime wedges, sliced jalapeno",
+        "rating": "4.9",
+        "method": "1. Preheat oven to 450°F.\n2. Roast beef bones for 20-30 minutes until browned.\n3. In a large pot, add beef bones, brisket, onion, and ginger.\n4. Cover with water and bring to a boil.\n5. Reduce heat to a simmer and add star ani"
+      },
+      {
+        "recipe_name": "Grilled Ribeye Steak",
+        "recipe_img2": "",
+        "ingredients": "2 1-pound ribeye steaks, 2 tbsp olive oil, 2 cloves garlic, minced, 1 tsp salt, 1/2 tsp black pepper, 1/2 tsp dried rosemary, 1/2 tsp dried thyme",
+        "rating": "4.7",
+        "method": "1. Preheat grill to high heat.\n2. Rub steaks with olive oil and minced garlic.\n3. Season steaks with salt, black pepper, rosemary, and thyme.\n4. Place steaks on the grill and cook for 4-5 minutes per side for medium-rare, or longer for desired doneness.\n5. Remove steaks from the grill and let them rest for 5 minutes before slicing and serving."
+      },
+      {
+        "recipe_name": "Butternut Squash Risotto",
+        "recipe_img3": "",
+        "ingredients": "1 butternut squash, 1 onion, 2 cloves garlic, 1 cup Arborio rice, 4 cups chicken broth, 1/2 cup white wine, 1/2 cup grated Parmesan cheese, 1/4 cup butter, 2 tbsp olive oil, 1 tbsp chopped fresh sage, salt and pepper",
+        "rating": "4.6",
+        "method": "1. Preheat oven to 375°F.\n2. Cut butternut squash in half and remove seeds. Roast in the oven for 45 minutes, or until tender. Scoop out the flesh and set aside.\n3. In a saucepan, heat chicken broth and keep warm.\n4. In a large saucepan, heat olive oil over medium heat. Add chopped onion and garlic and cook until softened.\n5. Add Arborio rice to the saucepan and"
+      }
+    ]
   }
 ]

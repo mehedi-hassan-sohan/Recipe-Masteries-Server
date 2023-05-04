@@ -15,7 +15,7 @@ app.get('/home', (req, res) => {
 }) 
  
 app.get('/home/:id',(req,res)=>{
-  const id = req.params.id
+  const id = parseInt(req.params.id)
   const selectedInfo = home.find(n=>n.id === id) 
   res.send(selectedInfo)
 })
